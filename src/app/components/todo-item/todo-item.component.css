@@ -1,0 +1,31 @@
+.todoWrapper {
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.removeTodo {
+  border-style: solid;
+  padding: 4px;
+  font-family: Bradley Hand, cursive;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-width: 0.5px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  background-color: transparent;
+}
+.updateTodo {
+  border-style: solid;
+  padding: 4px;
+  font-family: Bradley Hand, cursive;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-width: 0.5px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: blue;
+  color: blue;
+  background-color: transparent;
+}

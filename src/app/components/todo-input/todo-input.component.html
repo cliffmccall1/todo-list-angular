@@ -1,0 +1,13 @@
+<div class="todo-input-wrapper">
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <input type="text" placeholder="ToDo Title">
+    </div>
+    <div>
+      <textarea type="text" placeholder="ToDo Details (140 characters max)" name="details"></textarea>
+    </div>
+  </form>
+  <button class="btn btn-primary" routerLink="/" routerLinkActive="active">Cancel</button>
+
+  <button class="btn btn-primary">Submit</button>
+</div>

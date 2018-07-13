@@ -1,0 +1,56 @@
+.todo-input-wrapper {
+  margin-bottom: 20px;
+}
+.btn-primary {
+  border-style: solid;
+  padding: 4px;
+  font-family: Bradley Hand, cursive;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-width: 0.5px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+
+textarea {
+  font-family: Bradley Hand, cursive;
+
+  width: 80%;
+  border: none;
+  border-top: 0px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+textarea:focus {
+  font-family: Bradley Hand, cursive;
+
+  outline: none;
+  border: none;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+input {
+  font-family: Bradley Hand, cursive;
+
+  width: 80%;
+  border: none;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  font-family: Bradley Hand, cursive;
+
+  outline: none;
+  border: none;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}

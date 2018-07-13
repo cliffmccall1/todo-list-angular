@@ -1,8 +1,10 @@
+* {
+  font-family: Bradley Hand, cursive;
+}
 .btn {
   text-decoration: none;
   border-style: solid;
   padding: 4px;
-  font-family: Bradley Hand, cursive;
   margin-right: 20px;
   margin-bottom: 10px;
   border-width: 0.5px;

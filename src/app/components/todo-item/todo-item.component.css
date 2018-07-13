@@ -1,12 +1,11 @@
-.todoWrapper {
-  border-bottom: 1px solid black;
-  text-align: center;
-  margin-bottom: 10px;
+* {
+  font-family: Bradley Hand, cursive;
+  text-align: left;
 }
-.removeTodo {
+
+.completeTodo {
   border-style: solid;
   padding: 4px;
-  font-family: Bradley Hand, cursive;
   margin-right: 20px;
   margin-bottom: 10px;
   border-width: 0.5px;
@@ -19,7 +18,6 @@
 .updateTodo {
   border-style: solid;
   padding: 4px;
-  font-family: Bradley Hand, cursive;
   margin-right: 20px;
   margin-bottom: 10px;
   border-width: 0.5px;

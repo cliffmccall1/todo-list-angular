@@ -1,4 +1,9 @@
 <div class="todoWrapper">
-  <button class="removeTodo">remove</button>
-  <button class="updateTodo">update</button>
+
+  <div class="item" *ngFor="let todo of todo">
+    <button class="completeTodo">complete</button>
+    {{todo.id + 1}}. {{todo.title}}
+    <button class="updateTodo">update</button>
+  </div>
+
 </div>
